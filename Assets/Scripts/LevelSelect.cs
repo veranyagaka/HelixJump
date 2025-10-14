@@ -16,9 +16,17 @@ public class LevelSelect : MonoBehaviour
     {
         
     
+    
     }
     public void LoadNormal()
     {
-        SceneManager.LoadScene("Main");
+    	SceneManager.LoadScene("Main");
     }
+
+    public void LoadTime()
+    {
+        SceneManager.LoadScene("TimeOut");
+    }
+    
+
 }
