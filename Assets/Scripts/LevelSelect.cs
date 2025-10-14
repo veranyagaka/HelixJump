@@ -27,6 +27,9 @@ public class LevelSelect : MonoBehaviour
     {
         SceneManager.LoadScene("TimeOut");
     }
-    
+    public void LoadEndless()
+    {
+    	SceneManager.LoadScene("Endless");
+    }
 
 }

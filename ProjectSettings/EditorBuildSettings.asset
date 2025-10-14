@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TimeOut.unity
     guid: 7a24f585382cf2079bfffb7cddea31fd
+  - enabled: 1
+    path: Assets/Endless.unity
+    guid: 96594b0df18597dcfa079d505a6e8aa6
   m_configObjects: {}
