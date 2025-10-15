@@ -1005,16 +1005,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 350226346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aa73f32ebce1194d8a68547f5d0d0e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 18c880ff588915addaedf6b387634eb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topTransform: {fileID: 776796186}
-  goalTransform: {fileID: 721598639}
-  helixLevelPrefab: {fileID: 1448277556501934, guid: f0c9ad13dbd5c4b4dbd703af2bbab6fb,
+  helixParent: {fileID: 1078964891011298, guid: b2f5e62a8b37d05448867cff1120c48d,
     type: 3}
-  allStages:
-  - {fileID: 11400000, guid: 051d9bbef9606b3418d69bc52c152137, type: 2}
-  - {fileID: 11400000, guid: 051d9bbef9606b3418d69bc52c152137, type: 2}
+  helixLevelPrefab: {fileID: 1139882819383378, guid: 5651271489e37d64180e1095cc37b455,
+    type: 3}
+  numberOfLevels: 5
+  verticalSpacing: 3
+  rotationSpeed: 1
 --- !u!4 &416260902
 Transform:
   m_ObjectHideFlags: 0
@@ -1561,7 +1561,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 770366939}
-  - component: {fileID: 770366938}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1569,21 +1568,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &770366938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770366937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed36d7502adc39488b1bcd25aa29059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  best: 0
-  score: 0
-  currentStage: 0
 --- !u!4 &770366939
 Transform:
   m_ObjectHideFlags: 0
